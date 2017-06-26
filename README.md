@@ -5,10 +5,15 @@ This is a sample project demonstrating how to use Selenide with Cucumber and Mav
 
 ### How to run
 
-To run Selenide+Cucumber tests, just type from command line:
+To run Selenide+Cucumber tests locally, just type from command line:
 
 ```
 mvn test
+```
+
+To run on a cloud, just use:
+```
+mvn test -Denv=cloud
 ```
 
 ### How to add project to IDEA
