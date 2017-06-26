@@ -10,4 +10,4 @@ Feature: Locations search
     | zipCode | pricingButtonDisplayed  | expectedMessage                         |
     | 90028   | true                    | WE'VE GOT YOU COVERED!                  |
     | 11192   | false                   | SORRY! YOU'RE OUTSIDE OUR SERVICE AREA  |
-    | 99999   | true                    | TEST SHOULD FAIL                        |
+#    | 99999   | true                    | TEST SHOULD FAIL                        |
